@@ -1,0 +1,146 @@
+$text-color: #fff;
+$bg-color: #002347;
+$main-color: #FDC632;
+
+// NAVBAR SECTION -------------------------------
+#navbar{
+    width: 100%;
+    position: sticky;
+    color: $text-color !important;
+    .section-2{
+        background-color: $bg-color;
+        .navbar{
+            .navbar-brand{
+                color: $text-color;
+                img{
+                    width: 40px;
+                    margin-right: 10px;
+                }
+            }
+            .navbar-collapse{
+                .nav-item{
+                    .nav-link{
+                        color: $text-color;
+                    }
+                }
+            }
+        }
+    }
+}
+#navbar.scroll{
+    .section-2{
+        background-color: $bg-color !important;
+        box-shadow: 0 0 10px rgba($color: #000000, $alpha: 0.4);
+    }
+}
+
+// HEADER SECTION -------------------------------
+#header{
+    height: 70vh;
+    background-image: url('../images/about/home2.jpg');
+    position: relative;
+    .home{
+        width: 100%;
+        position: absolute;
+        top: 130px;
+        left: 0;
+        z-index: 2;
+        .home-text{
+            font-size: 1rem;
+            color: $text-color;
+            font-weight: 300 !important;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .home-title{
+            color: $text-color;
+            font-size: 2.7rem;
+            margin: 20px 0 10px 0; 
+        }
+    }
+    &::after{
+        position: absolute;
+        top: 0;
+        left: 0;
+        content: '';
+        width: 100%;
+        height: 100%;
+        background-color: rgba($color: $bg-color, $alpha: 0.8);
+        z-index: 1;
+    }
+}
+
+// ABOUT SECTION --------------------------------
+#about{
+    .col-lg-6{
+        .img-box{
+            padding: 40px 10px;
+            img{
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+        }
+        .about-text{
+            padding: 50px;
+            box-shadow: 0 0 15px rgba($color: #000000, $alpha: 0.2);
+            h4{
+                font-size: 1.8rem;
+                text-transform: capitalize;
+                margin-bottom: 1rem;
+                color: $bg-color;
+            }
+            p{
+                font-size: 1.1rem;
+                color: rgba($color: $bg-color, $alpha: 0.7);
+                margin-bottom: 1.3rem !important;
+            }
+            button{
+                background-color: $main-color;
+                color: $bg-color;
+                padding: 12px 35px;
+                border-radius: 5px;
+                border: none;
+                outline: none;
+                letter-spacing: 0.5px;
+                font-size: 0.8rem;
+                font-weight: 500;
+            }
+        }
+    }
+}
+
+// FEATURE SECTION ------------------------------
+#features{
+    background-color: rgba($color: $bg-color, $alpha: 1);
+    .title-text{
+        margin-bottom: 80px;
+        h2{
+            color: $text-color;
+        }
+        p{
+            color: $text-color;
+        }
+    }
+    .feature-card{
+        background-color: #F9F9FF;
+        padding: 25px 40px;
+        border-radius: 5px;
+        transition: all 0.3s linear;
+        img{
+            width: 50px;
+            margin-bottom: 25px;
+        }
+        h4{
+            font-family: 'Red Hat Display', sans-serif;
+            font-size: 1.2rem;
+            color: $bg-color;
+        }
+        p{
+            color: rgba($color: $bg-color, $alpha: 0.8);
+        }
+        &:hover{
+            transform: scale(1.01);
+            box-shadow: 0px 7px 20px rgba($color: #000000, $alpha: 0.1);
+        }
+    }
+}

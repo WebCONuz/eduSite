@@ -1,0 +1,17 @@
+$text-color: #fff;
+$bg-color: #002347;
+$main-color: #FDC632;
+
+// FEATURE SECTION ------------------------------
+#features{
+    background-color: transparent;
+    .title-text{
+        margin-bottom: 80px;
+        h2{
+            color: $bg-color;
+        }
+        p{
+            color: $bg-color;
+        }
+    }
+}

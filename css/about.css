@@ -1,0 +1,156 @@
+#navbar {
+  width: 100%;
+  position: -webkit-sticky;
+  position: sticky;
+  color: #fff !important;
+}
+
+#navbar .section-2 {
+  background-color: #002347;
+}
+
+#navbar .section-2 .navbar .navbar-brand {
+  color: #fff;
+}
+
+#navbar .section-2 .navbar .navbar-brand img {
+  width: 40px;
+  margin-right: 10px;
+}
+
+#navbar .section-2 .navbar .navbar-collapse .nav-item .nav-link {
+  color: #fff;
+}
+
+#navbar.scroll .section-2 {
+  background-color: #002347 !important;
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+}
+
+#header {
+  height: 70vh;
+  background-image: url("../images/about/home2.jpg");
+  position: relative;
+}
+
+#header .home {
+  width: 100%;
+  position: absolute;
+  top: 130px;
+  left: 0;
+  z-index: 2;
+}
+
+#header .home .home-text {
+  font-size: 1rem;
+  color: #fff;
+  font-weight: 300 !important;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#header .home .home-title {
+  color: #fff;
+  font-size: 2.7rem;
+  margin: 20px 0 10px 0;
+}
+
+#header::after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: '';
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 35, 71, 0.8);
+  z-index: 1;
+}
+
+#about .col-lg-6 .img-box {
+  padding: 40px 10px;
+}
+
+#about .col-lg-6 .img-box img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+#about .col-lg-6 .about-text {
+  padding: 50px;
+  -webkit-box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+#about .col-lg-6 .about-text h4 {
+  font-size: 1.8rem;
+  text-transform: capitalize;
+  margin-bottom: 1rem;
+  color: #002347;
+}
+
+#about .col-lg-6 .about-text p {
+  font-size: 1.1rem;
+  color: rgba(0, 35, 71, 0.7);
+  margin-bottom: 1.3rem !important;
+}
+
+#about .col-lg-6 .about-text button {
+  background-color: #FDC632;
+  color: #002347;
+  padding: 12px 35px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  letter-spacing: 0.5px;
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+
+#features {
+  background-color: #002347;
+}
+
+#features .title-text {
+  margin-bottom: 80px;
+}
+
+#features .title-text h2 {
+  color: #fff;
+}
+
+#features .title-text p {
+  color: #fff;
+}
+
+#features .feature-card {
+  background-color: #F9F9FF;
+  padding: 25px 40px;
+  border-radius: 5px;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+}
+
+#features .feature-card img {
+  width: 50px;
+  margin-bottom: 25px;
+}
+
+#features .feature-card h4 {
+  font-family: 'Red Hat Display', sans-serif;
+  font-size: 1.2rem;
+  color: #002347;
+}
+
+#features .feature-card p {
+  color: rgba(0, 35, 71, 0.8);
+}
+
+#features .feature-card:hover {
+  -webkit-transform: scale(1.01);
+          transform: scale(1.01);
+  -webkit-box-shadow: 0px 7px 20px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 7px 20px rgba(0, 0, 0, 0.1);
+}
+/*# sourceMappingURL=about.css.map */

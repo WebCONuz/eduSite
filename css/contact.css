@@ -1,0 +1,62 @@
+#registration .col-lg-12 iframe {
+  width: 100%;
+  height: 500px;
+}
+
+#registration .col-lg-12 .col-lg-4 .box i {
+  font-size: 1.4rem;
+  color: #002347;
+  margin-right: 1.5rem;
+}
+
+#registration .col-lg-12 .col-lg-4 .box .text h4 {
+  color: #002347;
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+
+#registration .col-lg-12 .col-lg-4 .box .text p {
+  color: #002347;
+  opacity: 0.7;
+}
+
+#registration .col-lg-12 .submit-box {
+  text-align: right;
+}
+
+#registration .col-lg-12 .submit-box input[type="submit"] {
+  padding: 12px 25px;
+  border-radius: 4px;
+  background-color: #FDC632;
+  color: #002347;
+  font-size: 0.9rem;
+  border: none;
+  outline: none;
+  font-weight: 500;
+  margin-top: 15px;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+#registration .col-lg-12 .submit-box input[type="submit"]:hover {
+  background-color: #002347;
+  color: #FDC632;
+}
+
+#registration .col-lg-12 .submit-box input[type="submit"]:active {
+  -webkit-box-shadow: 0 0 10px #FDC632;
+          box-shadow: 0 0 10px #FDC632;
+}
+
+@media (max-width: 922px) {
+  #registration .col-lg-12 iframe {
+    height: 400px;
+  }
+}
+
+@media (max-width: 576px) {
+  #registration .col-lg-12 iframe {
+    height: 300px;
+  }
+}
+/*# sourceMappingURL=contact.css.map */

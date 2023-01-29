@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAKA,AAAA,SAAS,CAAA;EACL,gBAAgB,EAAE,WAAW;CAUhC;;AAXD,AAEI,SAFK,CAEL,WAAW,CAAA;EACP,aAAa,EAAE,IAAI;CAOtB;;AAVL,AAIQ,SAJC,CAEL,WAAW,CAEP,EAAE,CAAA;EACE,KAAK,EATN,OAAO;CAUT;;AANT,AAOQ,SAPC,CAEL,WAAW,CAKP,CAAC,CAAA;EACG,KAAK,EAZN,OAAO;CAaT",
+    "sources": [
+        "../sass/courses.scss"
+    ],
+    "names": [],
+    "file": "courses.css"
+}
